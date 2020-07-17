@@ -1,0 +1,112 @@
+body{
+	font-family: 'Inter', sans-serif;
+	background-color: hsl(230, 17%, 14%);
+	
+}
+.head{
+	background-color: hsl(232, 19%, 15%);
+	height: 15em;
+	padding-top: 2em;
+
+}
+  .head > h1{
+	color: hsl(0, 0%, 100%);
+	font-weight: 700;
+	font-size: 22px;	
+}
+.head >   h5{
+	color: hsl(228, 34%, 66%);
+	font-weight: 700;
+	font-size: 12px;
+	margin-bottom: 5em;
+}
+.before_overview_col{
+	background-color: hsl(228, 28%, 20%);
+	margin-top: 3em;
+	position: relative;
+	bottom:80px;
+	text-align: center;
+	border-top:  5px solid hsl(208, 92%, 53%);
+	box-shadow: 1px 1px hsl(228, 28%, 20%);
+  border-radius: 5px;
+  box-shadow: 0px 7px 20px 0px hsl(230, 17%, 14%);
+
+}
+p{
+	color:  hsl(228, 34%, 66%);
+	font-weight: 400;
+	letter-spacing: 5px;
+}
+h3{
+	color:  hsl(163, 72%, 41%);
+	font-size: 14px;
+	font-weight: 700;
+	margin-left: 2em;
+	margin-bottom: 3em;
+}
+h4{
+	color: hsl(228, 34%, 66%);
+	font-size: 14px;
+	font-weight: 700;
+	margin-top: 1em;
+}
+h1{
+	color: hsl(0, 0%, 100%);
+	font-weight: 700;
+	font-size: 60px;
+}
+
+.youtube{
+		border-top: 5px solid hsl(348, 97%, 39%);
+	}
+
+.Overview{
+	margin-bottom: 2em;
+}	
+.Overview > h1{
+	font-size: 28px;
+}	
+
+.after_overview{
+	box-shadow: 1px 1px hsl(228, 28%, 20%);
+  border-radius: 5px;
+  box-shadow: 0px 7px 20px 0px hsl(230, 17%, 14%);
+  background-color: hsl(228, 28%, 20%);
+  padding-right: 1em;
+
+}
+	.page_views > h3{
+		color: hsl(228, 34%, 66%);
+		margin-top: 1em;
+
+	}
+
+.page_views{
+	display: flex;
+	justify-content: space-between;
+
+}
+.counter > h2{
+	color: hsl(0, 0%, 100%);
+	font-weight: bold;
+	margin-left: 1em;
+
+}
+
+.counter > h3{
+	color: hsl(163, 72%, 41%);
+	margin-top: 1em;
+	font-size: 16px;
+	position: relative;
+	left: 160px;
+	bottom: 50px;
+}
+.page_views > img{
+	height: 100%;
+	margin-top: 1em;
+}
+@media all and (max-width: 375px){
+	.counter > h3{
+		left: 250px;
+	}
+}
